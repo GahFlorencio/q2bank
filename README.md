@@ -16,8 +16,6 @@ Run on root these commands
 ```
 cp env.example .env
 
-cp docker-compose.env.example docker-compose.env
-
 sudo docker-compose --env-file=docker-compose.env up -d
 ```
 
