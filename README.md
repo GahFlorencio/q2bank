@@ -44,7 +44,7 @@ q2bank.local/api/payment/pay
 | Attibute | Required |  type   | rules                                |
 |:--------:|:--------:|:-------:|:-------------------------------------|
 |  payer   |   true   | integer | Valid user that is not a company     |
-|  receiver   |   true   | integer | Valid user that is not a company     |
+| receiver |   true   | integer | Valid user that is not a company     |
 |  value   |   true   | integer | Valid integer value, Accept Floating |
 
 ### Example:
@@ -61,10 +61,12 @@ q2bank.local/api/payment/pay
 |:-----------------------------------------------------------------------:|:---------------------------------------------:|:-----------:|
 |                        Failed to create Payment                         | Failed to create a Payment record on database |     500     |
 | Payment gateway declined transaction or is down, please try again later |      Payment Gateway Refused or is Down       |     500     |
+|                       Failed to make transaction                        |     Failed to debit user account amounts      |     500     |
 |                       Payer can not be a company                        |          Payer can not be a company           |     400     |
 |                      Receiver have to be a company                      |         Receiver have to be a company         |     400     |
 |                Payer does not have the balance available                |   Payer does not have the balance available   |     400     |
-|                       Payment made successfully                         |          Payment made successfully            |    200      |
+|                        Payment made successfully                        |           Payment made successfully           |     200     |
 
-
+### Thanks 
+-.. --- .-.. .-.. -.-- / . ... - . ...- . / .--. --- .-. / .- --.- ..- ..
 
