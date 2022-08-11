@@ -67,6 +67,10 @@ q2bank.local/api/payment/pay
 |                Payer does not have the balance available                |   Payer does not have the balance available   |     400     |
 |                        Payment made successfully                        |           Payment made successfully           |     200     |
 
+## Database Schema
+<p align="center"><img src="https://user-images.githubusercontent.com/44595199/184082428-d63c0563-ad01-4dcb-bd79-256dc3871c5b.png" width="400"></p>
+
+
 ### Thanks 
 -.. --- .-.. .-.. -.-- / . ... - . ...- . / .--. --- .-. / .- --.- ..- ..
 
